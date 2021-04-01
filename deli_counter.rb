@@ -15,7 +15,7 @@ def line(array)
 end
 
 def take_a_number(array, name)
-  array << name
+  array << "#{name}""
   position = array.size + 1
   "Welcome, #{name}. You are number #{position} in line."
 end 
