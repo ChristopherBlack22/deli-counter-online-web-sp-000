@@ -6,7 +6,9 @@ def line(array)
   else
     array.each_with_index do |name, number|
       position = number + 1
-      puts "The line is currently:" << " #{position}. #{name}"
+      line_status = "The line is currently:" 
+      line_status << " #{position}. #{name}"
+      puts line_status
   end 
   end
 end
