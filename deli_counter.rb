@@ -3,7 +3,8 @@ require "pry"
 def line(array) 
   line_status = "The line is currently:"
   if array.size == 0 
-    line_status.delete()
+    line_status.delete(":")
+    puts line_status << " empty."
   else
     array.each_with_index do |name, number|
       position = number + 1
