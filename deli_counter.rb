@@ -10,7 +10,6 @@ def line(array)
       line_status << " #{position}. #{name}"
     end
     puts line_status
-binding.pry 
   end 
 end
 
