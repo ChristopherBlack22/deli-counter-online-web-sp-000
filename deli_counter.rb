@@ -1,8 +1,9 @@
 require "pry"
 
 def line(array) 
+  line_status = "The line is currently:"
   if array.size == 0 
-    puts "The line is currently empty."
+    line_status.delete()
   else
     array.each_with_index do |name, number|
       position = number + 1
