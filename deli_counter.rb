@@ -8,10 +8,9 @@ def line(array)
   else
     array.each_with_index do |name, number|
       position = number + 1
-      line_status = "The line is currently:" 
-      line_status << " #{position}. #{name}"
+      message << " #{position}. #{name}"
     end
-    puts line_status
+    puts message
   end 
 end
 
