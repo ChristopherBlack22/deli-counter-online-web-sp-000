@@ -8,9 +8,9 @@ def line(array)
       position = number + 1
       line_status = "The line is currently:" 
       line_status << " #{position}. #{name}"
-      puts line_status
+    end
+    puts line_status
   end 
-  end
 end
 
 def take_a_number
