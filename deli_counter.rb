@@ -16,8 +16,8 @@ end
 
 def take_a_number(array, name)
   array << name
-  #position = array.size
-  #"Welcome, #{name}. You are number #{position} in line."
+  position = array.size
+  puts "Welcome, #{name}. You are number #{position} in line."
 end 
 
 def now_serving
